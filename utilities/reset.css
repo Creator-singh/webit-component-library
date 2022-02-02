@@ -1,0 +1,33 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+/* For Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* For Media */
+img, iframe, video {
+	max-inline-size: 100%;
+	block-size: auto;
+}
+
+/* For List */
+ul {
+	list-style: none;
+}
+
+/* For Text */
+a, p, label, span, button, article {
+	font-size: 1.6rem;
+}

@@ -5,19 +5,22 @@
 * {
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
 	box-sizing: border-box;
 }
 
-html{
-    font-size: 62.5%;
+html {
+	font-size: 62.5%;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+	font-family: 'Roboto', sans-serif;
 }
 
 /* For Media */
-img, iframe, video {
+img,
+iframe,
+video {
 	max-inline-size: 100%;
 	block-size: auto;
 }
@@ -28,6 +31,11 @@ ul {
 }
 
 /* For Text */
-a, p, label, span, button, article {
+a,
+p,
+label,
+span,
+button,
+article {
 	font-size: 1.6rem;
 }

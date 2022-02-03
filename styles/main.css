@@ -78,10 +78,6 @@
     margin-bottom: 1rem;
 }
 
-.title {
-    align-self: center;
-}
-
 .action-btn {
     display: flex;
     gap: 2rem;

@@ -33,12 +33,6 @@
     transition: all 0.3s ease;
 }
 
-.nav-items {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .fa-github {
     color: var(--primary-color);
     text-decoration: none;
@@ -115,11 +109,6 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-}
-
-.code-snip {
-    height: 100%;
-    padding: 1rem;
 }
 
 /* Footer content */

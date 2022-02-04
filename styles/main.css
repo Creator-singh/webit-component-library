@@ -134,12 +134,13 @@
 }
 
 .footer-header {
+    font-size: 2rem;
     font-weight: bold;
-    font-size: large;
 }
 
 /**Credit**/
 .credit {
+    font-size: 1rem;
     color: black;
     font-weight: bold;
     text-align: center;

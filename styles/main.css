@@ -28,8 +28,9 @@
 }
 
 .brand-name:hover{
-    color: white;
-    opacity: 0.5;
+    color: var(--primary-color);
+    opacity: 0.8;
+    text-transform: uppercase;
     transition: all 0.3s ease;
 }
 
@@ -119,7 +120,7 @@
 .install-btn:hover{
     background-color: var(--primary-color);
     color: white;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .hero-image {

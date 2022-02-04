@@ -90,7 +90,7 @@
 }
 
 .get-started-btn {
-    border: 0.2rem solid;
+    border: 2px solid var(--primary-color);
     padding: 1.5rem;
     border-radius: 0.5rem;
     background-color: var(--primary-color);
@@ -100,8 +100,25 @@
     transition: all 0.3s ease;
 }
 
+.install-btn {
+    border: 2px solid var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
 .get-started-btn:hover {
-    opacity: 0.5;
+    color: var(--secondary-color);
+    opacity: 0.9;
+}
+
+.install-btn:hover{
+    color: var(--primary-color);
+    opacity: 0.8;
 }
 
 .hero-image {

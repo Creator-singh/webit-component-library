@@ -1,0 +1,47 @@
+/* Navigation bar */
+.navbar {
+    grid-area: navbar;
+    background-color: var(--primary-color);
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  
+  .logo {
+    height: auto;
+    width: auto;
+  }
+  
+  .brand-name {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .brand-name:hover {
+    color: var(--secondary-color);
+    opacity: 0.5;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 3rem;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    padding: 1rem;
+  }
+  
+  .docs-btn{
+    color: white;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .docs-btn:hover{
+    color: var(--secondary-color);
+    opacity: 0.6;
+  }

@@ -1,0 +1,47 @@
+/* Footer Section */
+.footer {
+    grid-area: footer;
+    text-align: center;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  
+  .footer ul {
+    list-style: none;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .footer ul li {
+    display: inline;
+  }
+  
+  .footer-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .credit {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .fa:hover {
+    color: var(--secondary-color);
+    opacity: 0.6;
+  }
+  
+  .fa-linkedin,
+  .fa-instagram,
+  .fa-twitter,
+  .fa-github {
+    font-size: 2rem;
+    color: white;
+    transition: all 0.3s ease;
+    margin: 1rem;
+  }

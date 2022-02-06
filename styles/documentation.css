@@ -1,0 +1,49 @@
+.navbar{
+    border-bottom-left-radius: 0;
+}
+
+/* Docs Grid */
+.docs-container{
+    display: grid;
+    grid-template-columns: 200px 3fr;
+    grid-template-areas: "navbar navbar"
+    "sidebar main"
+    "sidebar main"
+    "footer footer";
+}
+
+/* Sidebar section */
+.sidebar{
+    grid-area: sidebar;
+    background-color: var(--secondary-color);
+    overflow: auto;
+}
+
+.sidebar ul{
+    margin-left: 3rem;
+    padding: 1rem 0;
+    border-right: 2px solid grey;
+}
+
+.sidebar ul li{
+    padding: 1.5rem;
+}
+
+.sidebar ul li a{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover{
+    color: var(--primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+/* Main Section */
+.main-content{
+    grid-area: main;
+
+}
+

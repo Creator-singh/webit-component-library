@@ -36,13 +36,14 @@
 }
 
 .brand-name:hover {
+  color: var(--secondary-color);
   opacity: 0.5;
 }
 
 .navbar ul {
   list-style: none;
   text-align: right;
-  padding: 2px;
+  margin-right: 3rem;
 }
 
 .navbar ul li {
@@ -50,9 +51,15 @@
   padding: 1rem;
 }
 
-.navbar ul a {
+.docs-btn{
   color: white;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+
+.docs-btn:hover{
+  color: var(--secondary-color);
+  opacity: 0.6;
 }
 
 /* Hero Image */
@@ -180,7 +187,8 @@
 
 .fa-linkedin,
 .fa-instagram,
-.fa-twitter {
+.fa-twitter,
+.fa-github {
   font-size: 2rem;
   color: white;
   transition: all 0.3s ease;

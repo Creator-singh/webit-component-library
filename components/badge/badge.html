@@ -1,18 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gursimar Singh" />
-    <meta name="description" content="Badge Component" /> 
+    <meta name="description" content="Badge Component" />
 
     <link rel="stylesheet" href="./badge.css">
     <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../avatar/avatar.css">
 
     <title>Badge</title>
 </head>
+
 <body>
-    
+    <section id="badge">
+        <h3>Badge</h3>
+        <p>
+            A badge is a visual indicator which can contain numeric values or just a simple indicator usually used for
+            notifications, user status or on cards.
+        </p>
+
+        <div class="badge-example">
+
+            <div class="user">
+                <img class="rounded-img avatar-md" src="https://i.pravatar.cc/400" alt="avatar-md">
+                <span class="active"></span>
+            </div>
+            <div class="user">
+                <img class="rounded-img avatar-md" src="https://i.pravatar.cc/400" alt="avatar-md">
+                <span class="idle"></span>
+            </div>
+            <div class="user">
+                <img class="rounded-img avatar-md" src="https://i.pravatar.cc/400" alt="avatar-md">
+                <span class="inactive"></span>
+            </div>
+            <div>
+                <i class="fas fa-envelope badge-icon">
+                    <span class="badge">2</span>
+                </i>
+            </div>
+            <div>
+                <i class="fas fa-shopping-cart badge-icon">
+                    <span class="badge">8</span>
+                </i>
+            </div>
+        </div>
+
+        <div class="hidden">
+            I am hidden
+        </div>
+
+        <div class="snippet">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522user%2522%253E%250A%2509%253Cimg%2520class%253D%2522rounded-img%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F400%2522%2520alt%253D%2522avatar-md%2522%253E%250A%2509%253Cspan%2520class%253D%2522active%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2520badge-icon%2522%253E%253Cspan%2520class%253D%2522badge%2522%253E2%253C%252Fspan%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 299px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </section>
 </body>
+
 </html>

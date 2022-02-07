@@ -1,0 +1,63 @@
+#avatar{
+    padding: 3rem;
+}
+
+#avatar h3,p,ol{
+    padding: 1rem;
+} 
+
+#avatar ol li{
+    margin-left: 2rem;
+    font-size: 1.6rem;
+}
+
+code{
+    background-color: var(--lightgrey);
+}
+
+.avatar-example{
+    text-align: center;
+    border: 1px solid var(--lightgrey);
+    padding: 1.5rem;
+    box-shadow: 3px 3px 3px 3px var(--lightgrey);
+}
+
+.avatar-xs{
+    height: 4rem;
+    width: 4rem;
+}
+
+.avatar-sm{
+    height: 5rem;
+    width: 5rem;
+}
+
+.avatar-md{
+    height: 6rem;
+    width: 6rem;
+}
+
+.avatar-lg{
+    height: 7rem;
+    width: 7rem;
+}
+
+.avatar-xl{
+    height: 8rem;
+    width: 8rem;
+}
+
+.rounded-img{
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.snippet{
+    border: 1px solid lightgrey;
+    padding: 1.5rem;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+}

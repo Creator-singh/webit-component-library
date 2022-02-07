@@ -21,12 +21,13 @@
 
 .sidebar ul{
     margin-left: 3rem;
-    padding: 1rem 0;
+    padding-top: 2rem;
+    height: 100%;
     border-right: 2px solid var(--secondary-color);
 }
 
 .sidebar ul li{
-    padding: 1rem;
+    padding: 2rem 0;
 }
 
 .sidebar ul li a{

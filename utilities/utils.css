@@ -1,5 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
 :root {
     --primary-color: #1d4ed8;
     --secondary-color: #93c5fd;
     --sidebar-color: #f3f4f6;
+    --bg-success: #22c55e;
+    --bg-warning: #ffc107;
+    --bg-inactive: #374151;
+    --lightgrey: lightgrey;
 }

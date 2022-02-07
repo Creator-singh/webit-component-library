@@ -29,7 +29,7 @@
                     <a class="docs-btn" href="./pages/documentation.html">Docs</a>
                 </li>
                 <li>
-                    <a class="fa fa-github" href="https://github.com/Creator-singh/webit-component-library"
+                    <a class="fab fa-github" href="https://github.com/Creator-singh/webit-component-library"
                         target="_blank" rel="noopener noreferrer"></a>
                 </li>
             </ul>
@@ -38,6 +38,7 @@
         <!-- Sidebar section -->
         <aside class="sidebar">
             <ul class="">
+                <li><h4>Components</h4></li>
                 <li><a href="#alert">Alert</a></li>
                 <li><a href="#avatar">Avatar</a></li>
                 <li><a href="#badge">Badge</a></li>
@@ -57,9 +58,106 @@
 
         <!-- Main Section -->
         <main class="main-content">
-            <section id="alert">
-                <div>this is alert</div>
+
+            <!-- Avatar Section -->
+            <section id="avatar">
+                <h3>Avatar</h3>
+                <p>
+                    An avatar is a visual representation of a user or entity.
+                </p>
+                <p>
+                    There are various size availabe for the user and it can be simply done by changing the class
+                </p>
+                <p>
+                    These classes are:
+                </p>
+                <ol>
+                    <li>
+                        Extra Small: <code>class="avatar-xs"</code>
+                    </li>
+                    <li>
+                        Small: <code>class="avatar-sm"</code>
+                    </li>
+                    <li>
+                        Medium: <code>class="avatar-md"</code>
+                    </li>
+                    <li>
+                        Large: <code>class="avatar-lg"</code>
+                    </li>
+                    <li>
+                        Extra Large: <code>class="avatar-xl"</code>
+                    </li>
+                </ol>
+        
+                <div class="avatar-example">
+                    <img class="rounded-img avatar-xs" src="https://i.pravatar.cc/400" alt="avatar-xs">
+                    <img class="rounded-img avatar-sm" src="https://i.pravatar.cc/400" alt="avatar-sm">
+                    <img class="rounded-img avatar-md" src="https://i.pravatar.cc/400" alt="avatar-md">
+                    <img class="rounded-img avatar-lg" src="https://i.pravatar.cc/400" alt="avatar-lg">
+                    <img class="rounded-img avatar-xl" src="https://i.pravatar.cc/400" alt="avatar-xl">
+                </div>
+        
+                <div class="hidden">
+                    I am hidden
+                </div>
+        
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cimg%2520class%253D%2522rounded-img%2520avatar-xs%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522avatar-xs%2522%253E%250A%253Cimg%2520class%253D%2522rounded-img%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522avatar-sm%2522%253E%250A%253Cimg%2520class%253D%2522rounded-img%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522avatar-md%2522%253E%250A%253Cimg%2520class%253D%2522rounded-img%2520avatar-lg%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522avatar-lg%2522%253E%250A%253Cimg%2520class%253D%2522rounded-img%2520avatar-xl%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522avatar-xl%2522%253E"
+                        style="width: 100%; height: 262px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+        
             </section>
+
+            <!-- Badge Section -->
+            <section id="badge">
+                <h3>Badge</h3>
+                <p>
+                    A badge is a visual indicator which can contain numeric values or just a simple indicator usually used for
+                    notifications, user status or on cards.
+                </p>
+        
+                <div class="badge-example">
+        
+                    <div class="user">
+                        <img class="rounded-img avatar-md" src="https://i.pravatar.cc/400" alt="avatar-md">
+                        <span class="active"></span>
+                    </div>
+                    <div class="user">
+                        <img class="rounded-img avatar-md" src="https://i.pravatar.cc/400" alt="avatar-md">
+                        <span class="idle"></span>
+                    </div>
+                    <div class="user">
+                        <img class="rounded-img avatar-md" src="https://i.pravatar.cc/400" alt="avatar-md">
+                        <span class="inactive"></span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope badge-icon">
+                            <span class="badge">2</span>
+                        </i>
+                    </div>
+                    <div>
+                        <i class="fas fa-shopping-cart badge-icon">
+                            <span class="badge">8</span>
+                        </i>
+                    </div>
+                </div>
+        
+                <div class="hidden">
+                    I am hidden
+                </div>
+        
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522user%2522%253E%250A%2509%253Cimg%2520class%253D%2522rounded-img%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F400%2522%2520alt%253D%2522avatar-md%2522%253E%250A%2509%253Cspan%2520class%253D%2522active%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2520badge-icon%2522%253E%253Cspan%2520class%253D%2522badge%2522%253E2%253C%252Fspan%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 299px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
         </main>
 
         <!-- Footer section -->
@@ -67,17 +165,17 @@
             <div class="footer-title">Connect with me</div>
             <ul>
               <li>
-                <a class="fa fa-linkedin" href="https://in.linkedin.com/in/gursimar-singh-cu" target="_blank"
+                <a class="fab fa-linkedin" href="https://in.linkedin.com/in/gursimar-singh-cu" target="_blank"
                   rel="noopener noreferrer"></a>
               </li>
       
               <li>
-                <a class="fa fa-twitter" href="https://twitter.com/Gursimar_DEV" target="_blank"
+                <a class="fab fa-twitter" href="https://twitter.com/Gursimar_DEV" target="_blank"
                   rel="noopener noreferrer"></a>
               </li>
       
               <li>
-                <a class="fa fa-instagram" href="https://www.instagram.com/gursimar.dev/" target="_blank"
+                <a class="fab fa-instagram" href="https://www.instagram.com/gursimar.dev/" target="_blank"
                   rel="noopener noreferrer"></a>
               </li>
             </ul>

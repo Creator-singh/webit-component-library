@@ -12,12 +12,12 @@
     justify-content: space-around;
     padding: 2rem;
     text-align: center;
-    border: 1px solid lightgrey;
+    border: 1px solid var(--lightgrey);
     padding: 1.5rem;
-    box-shadow: 3px 3px 3px 3px lightgrey;
+    box-shadow: 3px 3px 3px 3px var(--lightgrey);
 }
 
-.user{
+.user-image{
     position: relative;
 }
 

@@ -12,14 +12,14 @@
 }
 
 code{
-    background-color: lightgray;
+    background-color: var(--lightgrey);
 }
 
 .avatar-example{
     text-align: center;
-    border: 1px solid lightgrey;
+    border: 1px solid var(--lightgrey);
     padding: 1.5rem;
-    box-shadow: 3px 3px 3px 3px lightgrey;
+    box-shadow: 3px 3px 3px 3px var(--lightgrey);
 }
 
 .avatar-xs{

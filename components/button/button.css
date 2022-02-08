@@ -22,6 +22,7 @@
     padding: 1rem;
     border-radius: 0.5rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .primary-btn{
@@ -46,5 +47,11 @@
     background-color: var(--bg-success);
     color: black;
     border: 2px solid var(---bg-success);
+}
+
+.button-content :where(button):hover{
+    transition: all 0.3s ease-in-out;
+    opacity: 0.8;
+    text-transform: uppercase;
 }
 

@@ -5,7 +5,7 @@
 /* Docs Grid */
 .docs-container{
     display: grid;
-    grid-template-columns: 150px 3fr;
+    grid-template-columns: 160px 3fr;
     grid-template-areas: "navbar navbar"
     "sidebar main"
     "sidebar main"
@@ -24,10 +24,12 @@
     padding-top: 2rem;
     height: 100%;
     border-right: 2px solid var(--secondary-color);
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
 .sidebar ul li{
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .sidebar ul li a{

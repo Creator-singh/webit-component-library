@@ -21,6 +21,12 @@
     margin: 1rem;
 }
 
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .alert-box{
     padding: 1rem;
     margin: 1rem;
@@ -32,29 +38,17 @@
 }
 
 .success-alert{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: var(--bg-success);
 }
 
 .warning-alert{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: var(--bg-warning);
 }
 
 .error-alert{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: var(--bg-danger);
 }
 
 .info-alert{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: var(--bg-info);
 }

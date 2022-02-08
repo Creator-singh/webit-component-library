@@ -42,7 +42,7 @@
                 <li><a href="#alert">Alert</a></li>
                 <li><a href="#avatar">Avatar</a></li>
                 <li><a href="#badge">Badge</a></li>
-                <li><a href="#button">Button</a></li>
+                <li><a href="#button">Buttons</a></li>
                 <li><a href="#card">Card</a></li>
                 <li><a href="#image">Image</a></li>
                 <li><a href="#input">Input</a></li>
@@ -58,6 +58,44 @@
 
         <!-- Main Section -->
         <main class="main-content">
+
+            <!-- Alert Section -->
+            <section id="alert">
+                <h3>Alert</h3>
+                <p>Alert is used to convey a message to the users which requires minimal interaction with user.</p>
+                <div class="alert-content">
+                    <!-- Success -->
+                    <div class="success-alert alert-box flex-center">
+                        <i class="far fa-check-circle"></i>
+                        <p class="alert-text">Success Alert</p>
+                    </div>
+                    <!-- Warning -->
+                    <div class="warning-alert alert-box flex-center">
+                        <i class="far fa-exclamation-circle"></i>
+                        <p class="alert-text">Warning Alert</p>
+                    </div>
+                    <!-- Error -->
+                    <div class="error-alert alert-box flex-center">
+                        <i class="far fa-times"></i>
+                        <p class="alert-text">Error Alert</p>
+                    </div>
+                    <!-- Info -->
+                    <div class="info-alert  alert-box flex-center">
+                        <i class="far fa-info-circle"></i>
+                        <p class="alert-text">Info Alert</p>
+                    </div>
+                </div>
+                <div class="hidden">
+                    I am hidden
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253C%21--%2520Success%2520--%253E%250A%253Cdiv%2520class%253D%2522success-alert%2520alert-box%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%2520class%253D%2522alert-text%2522%253ESuccess%2520Alert%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520Warning%2520--%253E%250A%253Cdiv%2520class%253D%2522warning-alert%2520alert-box%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%2520class%253D%2522alert-text%2522%253EWarning%2520Alert%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520Error%2520--%253E%250A%253Cdiv%2520class%253D%2522error-alert%2520alert-box%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%2520class%253D%2522alert-text%2522%253EError%2520Alert%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520Info%2520--%253E%250A%253Cdiv%2520class%253D%2522info-alert%2520%2520alert-box%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%2520class%253D%2522alert-text%2522%253EInfo%2520Alert%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 542px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
 
             <!-- Avatar Section -->
             <section id="avatar">
@@ -88,7 +126,6 @@
                         Extra Large: <code>class="avatar-xl"</code>
                     </li>
                 </ol>
-        
                 <div class="avatar-example">
                     <img class="rounded-img avatar-xs" src="https://i.pravatar.cc/400" alt="avatar-xs">
                     <img class="rounded-img avatar-sm" src="https://i.pravatar.cc/400" alt="avatar-sm">
@@ -96,11 +133,9 @@
                     <img class="rounded-img avatar-lg" src="https://i.pravatar.cc/400" alt="avatar-lg">
                     <img class="rounded-img avatar-xl" src="https://i.pravatar.cc/400" alt="avatar-xl">
                 </div>
-        
                 <div class="hidden">
                     I am hidden
                 </div>
-        
                 <div class="snippet">
                     <iframe
                         src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cimg%2520class%253D%2522rounded-img%2520avatar-xs%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522avatar-xs%2522%253E%250A%253Cimg%2520class%253D%2522rounded-img%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522avatar-sm%2522%253E%250A%253Cimg%2520class%253D%2522rounded-img%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522avatar-md%2522%253E%250A%253Cimg%2520class%253D%2522rounded-img%2520avatar-lg%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522avatar-lg%2522%253E%250A%253Cimg%2520class%253D%2522rounded-img%2520avatar-xl%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522avatar-xl%2522%253E"
@@ -108,19 +143,17 @@
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
-        
             </section>
 
             <!-- Badge Section -->
             <section id="badge">
                 <h3>Badge</h3>
                 <p>
-                    A badge is a visual indicator which can contain numeric values or just a simple indicator usually used for
+                    A badge is a visual indicator which can contain numeric values or just a simple indicator usually
+                    used for
                     notifications, user status or on cards.
                 </p>
-        
                 <div class="badge-example">
-        
                     <div class="user-image">
                         <img class="rounded-img avatar-md" src="https://i.pravatar.cc/400" alt="avatar-md">
                         <span class="active"></span>
@@ -144,15 +177,48 @@
                         </i>
                     </div>
                 </div>
-        
                 <div class="hidden">
                     I am hidden
                 </div>
-        
                 <div class="snippet">
                     <iframe
                         src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522user%2522%253E%250A%2509%253Cimg%2520class%253D%2522rounded-img%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F400%2522%2520alt%253D%2522avatar-md%2522%253E%250A%2509%253Cspan%2520class%253D%2522active%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2520badge-icon%2522%253E%253Cspan%2520class%253D%2522badge%2522%253E2%253C%252Fspan%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
                         style="width: 100%; height: 299px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Button Section -->
+            <section id="button">
+                <h3>Buttons</h3>
+                <p>Buttons are used to interact with the user. It is generally used as call to actions(CTAs).</p>
+                <div class="button-content">
+                    <!-- Primary -->
+                    <button class="primary-btn">
+                        Primary
+                    </button>
+                    <!-- Secondary -->
+                    <button class="secondary-btn">
+                        Secondary
+                    </button>
+                    <!-- Outline -->
+                    <button class="outline-btn">
+                        Outlined
+                    </button>
+                    <!-- Icon -->
+                    <button class="icon-btn">
+                        <i class="far fa-download"></i>
+                        Icon
+                    </button>
+                </div>
+                <div class="hidden">
+                    I am hidden
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253C%21--%2520Primary%2520--%253E%250A%253Cbutton%2520class%253D%2522primary-btn%2522%253E%250A%2520%2520Primary%250A%253C%252Fbutton%253E%250A%253C%21--%2520Secondary%2520--%253E%250A%253Cbutton%2520class%253D%2522secondary-btn%2522%253E%250A%2520%2520Secondary%250A%253C%252Fbutton%253E%250A%253C%21--%2520Outline%2520--%253E%250A%253Cbutton%2520class%253D%2522outline-btn%2522%253E%250A%2520%2520Outlined%250A%253C%252Fbutton%253E%250A%253C%21--%2520Icon%2520--%253E%250A%253Cbutton%2520class%253D%2522icon-btn%2522%253E%2520%253Ci%2520class%253D%2522far%2520fa-download%2522%253E%253C%252Fi%253E%250A%2520%2520Icon%250A%253C%252Fbutton%253E"
+                        style="width: 100%; height: 468px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
@@ -164,24 +230,24 @@
         <footer class="footer">
             <div class="footer-title">Connect with me</div>
             <ul>
-              <li>
-                <a class="fab fa-linkedin" href="https://in.linkedin.com/in/gursimar-singh-cu" target="_blank"
-                  rel="noopener noreferrer"></a>
-              </li>
-      
-              <li>
-                <a class="fab fa-twitter" href="https://twitter.com/Gursimar_DEV" target="_blank"
-                  rel="noopener noreferrer"></a>
-              </li>
-      
-              <li>
-                <a class="fab fa-instagram" href="https://www.instagram.com/gursimar.dev/" target="_blank"
-                  rel="noopener noreferrer"></a>
-              </li>
+                <li>
+                    <a class="fab fa-linkedin" href="https://in.linkedin.com/in/gursimar-singh-cu" target="_blank"
+                        rel="noopener noreferrer"></a>
+                </li>
+
+                <li>
+                    <a class="fab fa-twitter" href="https://twitter.com/Gursimar_DEV" target="_blank"
+                        rel="noopener noreferrer"></a>
+                </li>
+
+                <li>
+                    <a class="fab fa-instagram" href="https://www.instagram.com/gursimar.dev/" target="_blank"
+                        rel="noopener noreferrer"></a>
+                </li>
             </ul>
             <div class="credit">Made with ❤️ by Gursimar Singh</div>
             <div class="credit"><small>2022</small></div>
-          </footer>
+        </footer>
     </div>
 </body>
 

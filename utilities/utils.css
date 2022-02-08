@@ -8,5 +8,7 @@
     --bg-success: #22c55e;
     --bg-warning: #ffc107;
     --bg-inactive: #374151;
+    --bg-danger: #dc3545;
+    --bg-info: #0dcaf0;
     --lightgrey: lightgrey;
 }

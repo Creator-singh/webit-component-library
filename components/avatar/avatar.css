@@ -2,9 +2,9 @@
     padding: 3rem;
 }
 
-#avatar h3,p,ol{
+#avatar:where(h3,p,ol){
     padding: 1rem;
-} 
+}
 
 #avatar ol li{
     margin-left: 2rem;

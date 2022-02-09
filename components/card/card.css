@@ -1,0 +1,149 @@
+#card{
+    padding: 3rem;
+}
+
+#card :where(p){
+    padding: 1rem 0;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-example :where(h3,h4,p){
+    padding: 5px;
+}
+
+.card-props{
+    border: 2px solid var(--sidebar-color);
+    margin: 1rem;
+    max-width: 30rem;
+    height: 45rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.card-example{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+}
+
+.card-shadow{
+    border: 1px solid var(--lightgrey);
+    padding: 1.5rem;
+    box-shadow: 3px 3px 3px 3px var(--lightgrey);
+}
+
+.card-btn{
+    position: absolute;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    left: -0.5px;
+    bottom: 0.5px;
+}
+
+.card-btn:hover{
+    opacity: 0.6;
+}
+
+.overlay{
+    position: absolute;
+    align-self: center;
+    top: 15rem;
+    background-color: var(--lightgrey);
+    width: 94%;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.close{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    cursor: pointer;
+}
+
+.close:hover{
+    color: var(--bg-danger);
+}
+
+.user-interaction{
+    position: absolute;
+    font-size: 2rem;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+.fal, .far{
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.fa-heart:hover{
+    color: var(--bg-danger);
+}
+
+.fa-share-alt:hover{
+    color: var(--primary-color);
+}
+
+.fa-ellipsis-v:hover{
+    color: var(--bg-warning);
+}
+
+.card-text{
+    border: 2px solid var(--sidebar-color);
+    margin: 1rem;
+    max-width: 30rem;
+    height: 25rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.card-h{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    max-width: 60rem;
+    height: 30rem;
+    margin-left: 3rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+.card-h-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-h-content :where(h3,p){
+    margin: 1rem;
+    padding: 0.4rem;
+}
+
+.card-h-content :where(button){
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card-h-content :where(button):hover{
+    transition: all 0.3s ease-in-out;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+

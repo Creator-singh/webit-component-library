@@ -1,15 +1,20 @@
 .navbar{
     border-bottom-left-radius: 0;
+    /* sidebar issue fixed*/
+    position: fixed;
+    z-index: 5;
 }
 
 /* Docs Grid */
 .docs-container{
     display: grid;
-    grid-template-columns: 160px 3fr;
+    grid-template-columns: 160px 1fr;
     grid-template-areas: "navbar navbar"
     "sidebar main"
     "sidebar main"
     "footer footer";
+    /* sidebar issue fixed*/
+    position: relative;
 }
 
 /* Sidebar section */
@@ -17,13 +22,17 @@
     grid-area: sidebar;
     background-color: var(--sidebar-color);
     overflow: auto;
+    /* sidebar issue fixed*/
+    position: fixed;
+    margin-top: 10rem;
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
 }
 
 .sidebar ul{
     margin-left: 3rem;
     padding-top: 2rem;
     height: 100%;
-    border-right: 2px solid var(--secondary-color);
     font-size: 2rem;
     font-weight: bolder;
 }
@@ -48,6 +57,25 @@
 /* Main Section */
 .main-content{
     grid-area: main;
-
+    /* sidebar issue fixed */
+    margin-top: 10rem;
 }
 
+/* scrollbar CSS */
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--secondary-color);
+    border-radius: 10px;
+}
+
+/* Hidden */
+.docs-hidden{
+    visibility: hidden;
+}

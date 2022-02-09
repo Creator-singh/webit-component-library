@@ -31,7 +31,7 @@
     margin: auto;
   }
   
-  .fa:hover {
+  .fab:hover {
     color: var(--secondary-color);
     opacity: 0.6;
   }

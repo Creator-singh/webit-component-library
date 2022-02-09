@@ -1,0 +1,39 @@
+#image{
+    padding: 3rem;
+}
+
+#image :where(h2,p){
+    padding: 1rem;
+}
+
+.image-example{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid var(--lightgrey);
+    padding: 1.5rem;
+    box-shadow: 3px 3px 3px 3px var(--lightgrey);
+}
+
+.img-component{
+    height: 30rem; 
+    width: 30rem;
+    margin: 2rem;
+}
+
+.round-img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.square-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.round-border-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}

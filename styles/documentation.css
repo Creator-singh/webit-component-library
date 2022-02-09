@@ -1,5 +1,8 @@
 .navbar{
     border-bottom-left-radius: 0;
+}
+
+.navbar-docs{
     /* sidebar issue fixed*/
     position: fixed;
     z-index: 5;

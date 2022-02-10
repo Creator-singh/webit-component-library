@@ -311,6 +311,67 @@
                     </iframe>
                 </div>
             </section>
+
+            <!-- Image Section -->
+            <section id="image">
+                <h2>Images</h2>
+                <p>Images are widely used in a website to display the products, set a prfile image. Images usually take the
+                    dimensions of the parent and are responsive.</p>
+                <div class="image-example">
+                    <img class="img-component round-img" src="https://i.pravatar.cc/400" alt="round-image">
+                    <img class="img-component square-img" src="https://i.pravatar.cc/400" alt="square-img">
+                    <img class="img-component round-border-img" src="https://i.pravatar.cc/400" alt="round-border-img">
+                </div>
+                <div class="hidden">
+                    I am hidden
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cimg%2520class%253D%2522round-img%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F400%2522%2520alt%253D%2522round-image%2522%253E%250A%253Cimg%2520class%253D%2522square-img%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F400%2522%2520alt%253D%2522square-img%2522%253E%250A%253Cimg%2520class%253D%2522round-border-img%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F400%2522%2520alt%253D%2522round-border-img%2522%253E"
+                        style="width: 100%; height: 226px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Input Section -->
+            <section id="input">
+                <h2>Input</h2>
+                <p>Input is used to take the required information from the user. Input should always be use with label for
+                    accessibility.</p>
+                <div class="input-example">
+                    <div class="input-flex">
+                        <label for="email">Enter Email Id: </label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+                        <span>Please Enter valid E-mail ID</span>
+                    </div>
+                    <div class="input-flex">
+                        <label for="mob" class="">Enter Mobile Number: </label>
+                        <input type="tel" name="mob" id="mob" minlength="10" required placeholder="Enter Mobile number">
+                        <span>Please enter 10 digit number</span>
+                    </div>
+                    <div class="input-flex">
+                        <label for="textarea" class="">Enter Text: </label>
+                        <textarea name="textarea" id="textarea" cols="30" rows="5" placeholder="Enter text...."></textarea>
+                    </div>
+                    <div class="input-flex">
+                        <label for="password">Enter Pasword: </label>
+                        <input type="password" name="password" id="password" minlength="10" required
+                            placeholder="Enter Password">
+                        <span>Minimum 10 characters</span>
+                    </div>
+                </div>
+                <div class="hidden">
+                    I am hidden
+                </div>
+                <div class="snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253C%21--%2520Email%2520--%253E%250A%253Cdiv%2520class%253D%2522input-flex%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522email%2522%253EEnter%2520Email%2520Id%253A%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522email%2522%2520id%253D%2522email%2522%2520placeholder%253D%2522example%2540gmail.com%2522%2520required%253E%250A%2520%2520%253Cspan%253EPlease%2520Enter%2520valid%2520E-mail%2520ID%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520Mobile%2520Number%2520--%253E%250A%253Cdiv%2520class%253D%2522input-flex%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522mob%2522%2520class%253D%2522%2522%253EEnter%2520Mobile%2520Number%253A%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522tel%2522%2520name%253D%2522mob%2522%2520id%253D%2522mob%2522%2520minlength%253D%252210%2522%2520required%2520placeholder%253D%2522Enter%2520Mobile%2520number%2522%253E%250A%2520%2520%253Cspan%253EPlease%2520enter%252010%2520digit%2520number%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520Text%2520Area%2520--%253E%250A%253Cdiv%2520class%253D%2522input-flex%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522textarea%2522%2520class%253D%2522%2522%253EEnter%2520Text%253A%2520%253C%252Flabel%253E%250A%2520%2520%253Ctextarea%2520name%253D%2522textarea%2522%2520id%253D%2522textarea%2522%2520cols%253D%252230%2522%2520rows%253D%25225%2522%2520placeholder%253D%2522Enter%2520text....%2522%253E%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520Password%2520--%253E%250A%253Cdiv%2520class%253D%2522input-flex%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522password%2522%253EEnter%2520Pasword%253A%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522password%2522%2520id%253D%2522password%2522%2520minlength%253D%252210%2522%2520required%2520placeholder%253D%2522Enter%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Password%2522%253E%250A%2520%2520%253Cspan%253EMinimum%252010%2520characters%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 673px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
         </main>
 
         <!-- Footer section -->

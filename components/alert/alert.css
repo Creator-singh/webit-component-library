@@ -2,8 +2,8 @@
     padding: 3rem;
 }
 
-#alert p{
-    padding: 1rem 0;
+#alert :where(h2,p){
+    padding: 1rem;
 }
 
 .alert-content{

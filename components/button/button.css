@@ -2,8 +2,8 @@
     padding: 3rem;
 }
 
-#button p{
-    padding: 1rem 0;
+#button :where(h2,p){
+    padding: 1rem;
 }
 
 .button-content{

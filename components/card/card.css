@@ -2,7 +2,7 @@
     padding: 3rem;
 }
 
-#card :where(p){
+#card :where(h2,p){
     padding: 1rem 0;
 }
 

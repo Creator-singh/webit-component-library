@@ -1,0 +1,58 @@
+#input{
+    padding: 3rem;
+}
+
+#input :where(h2,p){
+    padding: 1rem;
+}
+
+.input-example{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--lightgrey);
+    padding: 1.5rem;
+    box-shadow: 3px 3px 3px 3px var(--lightgrey);
+}
+
+.input-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+label{
+    padding: 0.5rem;
+}
+
+span{
+    padding: 0.5rem;
+}
+
+input{
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+textarea{
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+input:invalid+span:after {
+    position: absolute; content: '✖';
+    padding-left: 5px;
+    color: var(--bg-danger);
+  }
+  
+  input:valid+span:after {
+    position: absolute;
+    content: '✓';
+    padding-left: 5px;
+    color: var(--bg-success);
+  }

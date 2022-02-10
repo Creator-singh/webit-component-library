@@ -2,7 +2,7 @@
     padding: 3rem;
 }
 
-#avatar:where(h3,p,ol){
+#avatar :where(h2,p,ol){
     padding: 1rem;
 }
 

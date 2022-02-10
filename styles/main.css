@@ -8,6 +8,8 @@
 @import url("../components/alert/alert.css");
 @import url("../components/button/button.css");
 @import url("../components/card/card.css");
+@import url("../components/images/images.css");
+@import url("../components/input/input.css");
 
 /*Main Grid Container */
 .grid-container {

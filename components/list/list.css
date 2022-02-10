@@ -1,0 +1,37 @@
+#list{
+    padding: 3rem;
+}
+
+#list :where(h2,p){
+    padding: 1rem;
+}
+
+.list-example{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid var(--lightgrey);
+    padding: 1.5rem;
+    box-shadow: 3px 3px 3px 3px var(--lightgrey);
+}
+
+.list-example ul{
+    padding: 2rem;
+}
+
+.list-example li{
+    font-size: 2rem;
+    padding: 0.2rem;
+}
+
+.normal-list{
+    list-style: circle;
+}
+
+.no-style-list{
+    list-style: none;
+}
+
+.stacked-list li{
+    border-bottom: 1px solid var(--lightgrey);
+}

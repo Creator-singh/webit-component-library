@@ -10,6 +10,8 @@
 @import url("../components/card/card.css");
 @import url("../components/images/images.css");
 @import url("../components/input/input.css");
+@import url("../components/list/list.css");
+@import url("../components/text-utilities/text_utilities.css");
 
 /*Main Grid Container */
 .grid-container {

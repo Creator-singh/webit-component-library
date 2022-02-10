@@ -1,0 +1,29 @@
+#text-utilities{
+    padding: 3rem;
+}
+
+#text-utilities :where(p){
+    padding: 1rem;
+}
+
+.p-1{
+    padding: 1rem;
+}
+
+.utilities-example{
+    border: 1px solid var(--lightgrey);
+    padding: 1.5rem;
+    box-shadow: 3px 3px 3px 3px var(--lightgrey);
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.semi-bold{
+    font-weight: 600;
+}
+
+.regular{
+    font-weight: 400;
+}

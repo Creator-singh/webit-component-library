@@ -1,0 +1,52 @@
+#navigation{
+    padding: 3rem;
+}
+
+#navigation :where(h2,p){
+    padding: 1rem;
+}
+
+.nav-example{
+    border: 1px solid var(--lightgrey);
+    padding: 1.5rem;
+    box-shadow: 3px 3px 3px 3px var(--lightgrey);
+}
+
+.docs-navbar{
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: auto;
+}
+
+.brand{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-left: 3rem;
+    color: white;
+}
+
+.docs-navbar ul{
+    display: inline-block;
+}
+
+.docs-navbar ul li{
+    display: inline;
+}
+
+.docs-navbar ul li a{
+    color: white;
+    margin-right: 2rem;
+    padding: 1rem .5rem;
+    font-size: 1.5rem;
+}
+
+.brand:hover{
+    opacity: 0.5;
+}
+
+.docs-navbar ul li a:hover{
+    opacity: 0.5;
+}

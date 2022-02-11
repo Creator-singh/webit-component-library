@@ -1,0 +1,28 @@
+#rating{
+    padding: 3rem;
+}
+
+#rating :where(h2,p){
+    padding: 1rem;
+}
+
+.rating-example{
+    text-align: center;
+    border: 1px solid var(--lightgrey);
+    padding: 1.5rem;
+    box-shadow: 3px 3px 3px 3px var(--lightgrey);
+}
+
+.display-box{
+    padding: 3rem;;
+}
+
+.fa-star{
+    font-size: 2rem;
+    padding: 0.3rem;
+}
+
+.fa-star:hover{
+    cursor: pointer;
+    color: var(--bg-rating);
+}

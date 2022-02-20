@@ -1,3 +1,4 @@
+# <img src="https://user-images.githubusercontent.com/64949453/154838985-f0e00aa9-019d-4e24-8939-59bf4baea844.png" alt="WebitUI" width="150"/>
 # WebitUI
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4dfed4df-00ce-452a-845f-582f948882f3/deploy-status)](https://app.netlify.com/sites/webit-ui/deploys)
 
@@ -8,6 +9,11 @@ Webit UI is a CSS component library for easy, better and efficient UI designs.
 - HTML
 - Vanilla CSS
 
+## Installation
+Copy the Link given below and paste it in the < head > tag of your html, above all other style sheets.
+``` 
+<link rel="stylesheet" href="https://webit-ui.netlify.app/styles/components.css">
+ ```
 ## Components in Webit - 
 - Avatar
 - Alert
@@ -19,6 +25,7 @@ Webit UI is a CSS component library for easy, better and efficient UI designs.
 - List
 - Navigation
 - Rating
+- Slider
 - Text Utilities
 
 ## Screenshot:

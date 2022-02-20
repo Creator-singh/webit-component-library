@@ -1,0 +1,29 @@
+#slider{
+    padding: 3rem;
+}
+
+#slider :where(h2,p){
+    padding: 1rem;
+}
+
+.slider-example{
+    text-align: center;
+    border: 1px solid var(--lightgrey);
+    padding: 1.5rem;
+    box-shadow: 3px 3px 3px 3px var(--lightgrey);
+}
+
+#price{
+    padding: 0;
+    border: none;
+    height: 5px;
+    width: 15rem;
+    margin: 1rem 0;
+}
+
+.cl-display{
+    margin: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}

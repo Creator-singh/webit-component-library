@@ -10,6 +10,7 @@
 @import url("../components/text-utilities/text_utilities.css");
 @import url("../components/navigation/nav.css");
 @import url("../components/rating/rating.css");
+@import url("../components/slider/slider.css");
 
 /* Utilities */
 @import url("../utilities/reset.css");
